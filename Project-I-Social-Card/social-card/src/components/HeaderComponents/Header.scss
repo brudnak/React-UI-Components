@@ -1,5 +1,41 @@
 /* All styles for your header Components live here */
 
-h1 {
-  color: blue;
+.HeaderContainer {
+  display: flex;
+  width: 800px;
+  margin: auto;
+}
+
+.ImageThumbnail {
+  margin-right: 5px;
+
+  img {
+    width: 80px;
+  }
+}
+
+.HeaderTitle {
+  display: flex;
+  align-items: center;
+
+  .HeaderTitle-heading {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  .HeaderTitle-date {
+    color: #a7b2bc;
+    font-size: 0.8rem;
+    margin: 0;
+    margin-left: 2%;
+  }
+}
+
+.HeaderContent {
+  width: 90%;
+  font-size: 1.2rem;
+}
+
+.HeaderContent-para {
+  margin: 0;
 }

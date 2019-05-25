@@ -3,9 +3,9 @@ import './Header.scss'
 
 const HeaderTitle = () => {
   return (
-    <div>
-      <h1>Lambda School</h1>
-      <p>@LambdaSchool • 26 Jan</p>
+    <div className='HeaderTitle'>
+      <h1 className='HeaderTitle-heading'>Lambda School</h1>
+      <p className='HeaderTitle-date'>@LambdaSchool • 26 Jan</p>
     </div>
   )
 }
