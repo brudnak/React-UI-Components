@@ -1,0 +1,14 @@
+.CalculatorDisplay {
+  display: flex;
+  height: 100px;
+  width: 400px;
+  background-color: #222222;
+  color: #fff;
+  font-size: 4rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.CalculatorDisplay-numeral {
+  padding-right: 10px;
+}
