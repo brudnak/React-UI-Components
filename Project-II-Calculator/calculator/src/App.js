@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.scss'
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
         </strong>
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
