@@ -1,0 +1,27 @@
+.CardContainer {
+  display: flex;
+  width: 700px;
+  margin: auto;
+  flex-direction: column;
+  border: 1px solid #a7b2bc;
+  border-radius: 5px;
+  margin-top: 1%;
+}
+
+.CardBanner-image {
+  width: 700px;
+}
+
+.CardContent {
+  padding: 2%;
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #a7b2bc;
+    font-size: 1.1rem;
+  }
+}
